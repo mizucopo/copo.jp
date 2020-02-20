@@ -49,10 +49,10 @@ compiling generator.c
 In file included from generator.c:1:0:
 ../fbuffer/fbuffer.h: In <span style=color:#66d9ef>function</span> ‘fbuffer_to_s’:
 ../fbuffer/fbuffer.h:151:47: error: macro <span style=color:#e6db74>&#34;rb_str_new&#34;</span> requires <span style=color:#ae81ff>2</span> arguments, but only <span style=color:#ae81ff>1</span> given
-     VALUE result <span style=color:#f92672>=</span> rb_str_new<span style=color:#f92672>(</span>FBUFFER_PAIR<span style=color:#f92672>(</span>fb<span style=color:#f92672>)</span><span style=color:#f92672>)</span>;
+     VALUE result <span style=color:#f92672>=</span> rb_str_new<span style=color:#f92672>(</span>FBUFFER_PAIR<span style=color:#f92672>(</span>fb<span style=color:#f92672>))</span>;
                                                ^
 ../fbuffer/fbuffer.h:151:20: warning: initialization makes integer from pointer without a cast
-     VALUE result <span style=color:#f92672>=</span> rb_str_new<span style=color:#f92672>(</span>FBUFFER_PAIR<span style=color:#f92672>(</span>fb<span style=color:#f92672>)</span><span style=color:#f92672>)</span>;
+     VALUE result <span style=color:#f92672>=</span> rb_str_new<span style=color:#f92672>(</span>FBUFFER_PAIR<span style=color:#f92672>(</span>fb<span style=color:#f92672>))</span>;
                     ^
 In file included from generator.c:2:0:
 generator.c: In <span style=color:#66d9ef>function</span> ‘cState_aref’:

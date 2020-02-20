@@ -87,7 +87,7 @@ Successfully installed nokogiri-1.6.7.2
 <span style=color:#ae81ff>1</span> gem installed
 </code></pre></div><p>エラーなく、nokogiriのインストールできました。</p><h2 id=おまけ>おまけ</h2><p>Dockerfile を用意したので、参考になれば。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-dockerfile data-lang=dockerfile><span style=color:#66d9ef>FROM</span><span style=color:#e6db74> ruby:alpine</span><span style=color:#960050;background-color:#1e0010>
 </span><span style=color:#960050;background-color:#1e0010></span><span style=color:#66d9ef>MAINTAINER</span><span style=color:#e6db74> mizu &lt;mizu.copo@gmail.com&gt;</span><span style=color:#960050;background-color:#1e0010>
-</span><span style=color:#960050;background-color:#1e0010></span><span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010>
 </span><span style=color:#960050;background-color:#1e0010></span><span style=color:#66d9ef>RUN</span> set -x <span style=color:#ae81ff>\
 </span><span style=color:#ae81ff></span>  <span style=color:#f92672>&amp;&amp;</span> apk upgrade --no-cache <span style=color:#ae81ff>\ </span><span style=color:#960050;background-color:#1e0010>
 </span><span style=color:#960050;background-color:#1e0010></span>  <span style=color:#f92672>&amp;&amp;</span> apk add --no-cache --virtual build-dependencies <span style=color:#ae81ff>\
